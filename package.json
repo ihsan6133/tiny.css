@@ -1,11 +1,15 @@
 {
   "name": "tiny.css",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "description": "A very minimalistic and light weight css library",
   "main": "tiny.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ihsan",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihsan6133/tiny.css.git"
+  }
 }
