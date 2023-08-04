@@ -1,9 +1,11 @@
 {
   "name": "tiny.css",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "description": "A very minimalistic and light weight css library",
   "main": "tiny.css",
   "scripts": {
+    "build": "gulp build",
+    "dev": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ihsan",
@@ -11,5 +13,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ihsan6133/tiny.css.git"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss-import": "^15.1.0"
   }
 }

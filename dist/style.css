@@ -1,5 +1,5 @@
-@import './variables-light.css';
-@import './variables-dark.css' (prefers-color-scheme: dark);
+@import 'variables-light.css';
+@import 'variables-dark.css' (prefers-color-scheme: dark);
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -211,4 +211,46 @@ summary:hover {
 summary:focus-visible  {
     outline-color: var(--focus);
     /* border: 2px solid var(--focus); */
+}
+:root {
+    --background-body: #333;
+    --background:#444;
+    --background-hover: #555;
+
+    --text-main: #f7f7f7;
+    --text-bright: #fff;
+    --text-muted: #9d9d9d;
+
+    --button-base: #333;
+    --button-hover: #444;
+
+    --links: #56c7ff;
+    
+    --focus: #7aa3fc;
+
+}
+
+::backdrop {
+    --dialog-backdrop: rgba(255, 255, 255, 0.1);
+}
+:root {
+    --background-body: #f7f7f7;
+    --background:#e2e2e2;
+    --background-hover: #bbb;
+
+    --text-main: #333;
+    --text-bright: #000;
+    --text-muted: #999;
+
+    --button-base: #fff;
+    --button-hover: #eee;
+
+    --links: #0070E0;
+
+    --focus: #7aa3fc;
+
+}
+
+::backdrop {
+    --dialog-backdrop: rgba(0, 0, 0, 0.1);
 }
