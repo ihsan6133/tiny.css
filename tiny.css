@@ -1,0 +1,118 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    max-width: min(90%, 1100px);
+    margin: 3rem auto;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    border-bottom: none;
+}
+
+input {
+    border: 2px solid transparent;
+    border-radius: 0.25rem;
+    padding: 0.55rem;
+    font-size: medium;
+    background-color: #e2e2e2;
+    transition-duration: 0.2s;
+}
+
+code {
+    background-color: #e2e2e2;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    color: black;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(38, 107, 255);
+}
+
+pre>code {
+    padding: 10px;
+    display: block;
+    overflow-x: auto;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 0.25rem;
+}
+
+blockquote {
+    margin: 1.5em 0;
+    padding: 0 1.5rem;
+    border-left: 5px solid rgba(38, 107, 255, 0.6);
+    font-style: italic;
+}
+
+blockquote footer {
+    font-style: normal;
+}
+
+blockquote cite {
+    font-style: normal;
+}
+
+footer {
+    padding-top: 1rem;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.6rem;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-duration: 0.2s;    
+}
+
+button:hover {
+    background-color: #eee;
+}
+button:active {
+    transform: scale(1.05);
+}
+
+dialog {
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@keyframes backdrop-appear {
+    from {
+        opacity: 0;
+    }
+}
+    
+dialog::backdrop {
+    animation: backdrop-appear 1s;
+    backdrop-filter: blur(3px);
+}
+
