@@ -1,0 +1,21 @@
+:root {
+    --background-body: #333;
+    --background:#444;
+    --background-hover: #555;
+
+    --text-main: #f7f7f7;
+    --text-bright: #fff;
+    --text-muted: #9d9d9d;
+
+    --button-base: #333;
+    --button-hover: #444;
+
+    --links: #56c7ff;
+    
+    --focus: #7aa3fc;
+
+}
+
+::backdrop {
+    --dialog-backdrop: rgba(255, 255, 255, 0.1);
+}

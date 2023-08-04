@@ -18,8 +18,6 @@ Just stick this in the `<head>` tag of your html file:
 
 and that's it!
 
-**Note:** Currently only light theme is supported.
-
 ## Contributing
 
 Please feel free to contribute to this project! I am open to any suggestions and improvements.
