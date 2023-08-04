@@ -6,7 +6,7 @@ A very tiny css library to quickly build a webpage.
 
 The default styles in modern browsers look absolutely displeasing. I find myself wanting to create
 a quick html page, only to spend thirty minutes setting up the basic styles. Tiny.css provides basic
-but good looking styles for a webpage. It is also very small, only 1.5kb minified!
+but good looking styles for a webpage.
 
 ## Installation
 
