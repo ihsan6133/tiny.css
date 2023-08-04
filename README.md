@@ -28,8 +28,7 @@ If you find a bug, please open an issue.
 ## Inspiration
 
 This project was inspired by [kognise's](https://kognise.dev/) [water.css](https://watercss.kognise.dev/)
-and [Guilherme Pangnotta's](https://github.com/setetres) [evenbettermotherfucking.website]
-(https://evenbettermotherfucking.website/).
+and [Guilherme Pangnotta's](https://github.com/setetres) [evenbettermotherfucking.website](https://evenbettermotherfucking.website/).
 
 
 ## License
