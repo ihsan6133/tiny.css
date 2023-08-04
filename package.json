@@ -1,8 +1,8 @@
 {
   "name": "tiny.css",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A very minimalistic and light weight css library",
-  "main": "tiny-minified.css",
+  "main": "tiny.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
