@@ -15,7 +15,7 @@ but good looking styles for a webpage.
 Just stick this in the `<head>` tag of your html file:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.6/dist/tiny.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.7/dist/tiny.css">
 ```
 
 and that's it!
