@@ -13,14 +13,13 @@ body {
 
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--links);
-    border-bottom: 1px solid;
     transition: 0.2s;
 }
 
 a:hover {
-    border-bottom: none;
+    text-decoration: none;
 }   
 
 a:focus-visible {
@@ -42,18 +41,12 @@ input:focus {
     border-color: var(--focus);
 }
 
-input::placeholder {
-    color: var(--text-muted);
-}
 code {
     background-color: var(--background);
     padding: 0.25rem;
     border-radius: 0.25rem;
     color: var(--text-bright);
 }
-
-
-
 
 pre>code {
     padding: 10px;
@@ -68,7 +61,7 @@ pre>code {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #999;
+    background-color: var(--text-muted);
     border-radius: 5px;
 }
 
@@ -77,23 +70,13 @@ pre>code {
 }
 
 ::-webkit-scrollbar-track {
-    background: #ddd;
-    border-radius: 0.25rem;
+    background: var(--background-body);
 }
 
 blockquote {
     margin: 1.5em 0;
     padding: 0 1.5rem;
     border-left: 5px solid var(--focus);
-    font-style: italic;
-}
-
-blockquote footer {
-    font-style: normal;
-}
-
-blockquote cite {
-    font-style: normal;
 }
 
 footer {

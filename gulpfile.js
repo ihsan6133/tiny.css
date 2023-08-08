@@ -15,4 +15,9 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('dist'));
 });
 
+gulp.task('watch', function() {
+    gulp.watch('src/*.css', gulp.series('styles'));
+});
+
 module.exports.build = gulp.series('styles');
+module.exports.watch = gulp.series('watch');
