@@ -2,6 +2,8 @@
 
 A very tiny css library to quickly build a webpage.
 
+![tinycssdemo](https://github.com/ihsan6133/tiny.css/assets/69343917/93155c4c-ccef-4a64-980e-ea00103d985c)
+
 ## Why?
 
 The default styles in modern browsers look absolutely displeasing. I find myself wanting to create
