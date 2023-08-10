@@ -2,7 +2,10 @@
 
 A very tiny css library to quickly build a webpage.
 
-[![Tiny.css](tinycssdemo.png)](https://ihsan6133.github.io/tinycss)
+[![Tiny.css](assets/logo.svg)](https://ihsan6133.github.io/tinycss)
+
+![Demo](tinycssdemo.png)
+
 ## Why?
 
 The default styles in modern browsers look absolutely displeasing. I find myself wanting to create
