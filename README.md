@@ -2,7 +2,9 @@
 
 A very tiny css library to quickly build a webpage.
 
-[![Tiny.css](assets/logo.svg)](https://ihsan6133.github.io/tinycss)
+<p align="center">
+  <a href="https://ihsan6133.github.io/tinycss"><img src="assets/logo.svg" align="centre" alt="Tiny.css"></a>
+</p>
 
 ![Demo](tinycssdemo.png)
 
