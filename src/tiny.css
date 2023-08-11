@@ -231,3 +231,7 @@ th, td {
     padding: 0.5rem;
 }
 
+img, video, svg {
+    max-width: 100%;
+    height: auto;
+}
