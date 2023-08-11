@@ -1,2 +1,2 @@
-:root{--background-body:#333;--background:#444;--background-hover:#555;--text-main:#f7f7f7;--text-bright:#fff;--text-muted:#9d9d9d;--button-base:#333;--button-hover:#444;--links:#56c7ff;--focus:#7aa3fc}::backdrop{--dialog-backdrop:hsla(0,0%,100%,.1)}
+:root{--background-body:#333;--background:#444;--background-hover:#555;--text-main:#f7f7f7;--text-bright:#fff;--text-muted:#9d9d9d;--button-base:#333;--button-hover:#444;--links:#56c7ff;--focus:#7aa3fc;--table:var(--table-bg-alt);--table-bg:#414141;--table-bg-alt:#353535;--box-shadow:0 0 0px 1px hsla(0,0%,100%,.15),rgba(0,0,0,.24) 0px 3px 8px}::backdrop{--dialog-backdrop:hsla(0,0%,100%,.1)}
 /*# sourceMappingURL=variables-dark.css.map */

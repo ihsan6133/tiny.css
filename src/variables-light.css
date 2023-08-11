@@ -13,7 +13,12 @@
     --links: #0070E0;
 
     --focus: #7aa3fc;
+    
+    --table: #0070E0;
+    --table-bg: var(--background-body);
+    --table-bg-alt: #e8e8e8;
 
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 ::backdrop {

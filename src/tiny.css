@@ -195,3 +195,39 @@ summary:focus-visible  {
     outline-color: var(--focus);
     /* border: 2px solid var(--focus); */
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+
+    box-shadow: var(--box-shadow);
+}
+
+thead {
+    background-color: var(--table);
+
+    color: white;
+}
+
+tbody tr {
+    background-color: var(--table-bg);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: var(--table-bg-alt);
+}
+
+
+tbody:last-of-type {
+    border-bottom: 0.2rem solid var(--table);
+
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
