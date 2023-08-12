@@ -17,11 +17,23 @@ but good looking styles for a webpage.
 
 Just stick this in the `<head>` tag of your html file:
 
+### Automatic light/dark theme:
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.10/dist/tiny.css">
 ```
 
-and that's it!
+### Light theme only:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.10/dist/light.css">
+```
+
+### Dark theme only:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.10/dist/dark.css">
+```
 
 ## Contributing
 
