@@ -1,22 +1,22 @@
 :root {
-    --background-body: #333;
-    --background:#444;
-    --background-hover: #555;
+    --background-body: #252525;
+    --background:#353535;
+    --background-hover: #454545;
 
     --text-main: #f7f7f7;
     --text-bright: #fff;
     --text-muted: #9d9d9d;
 
-    --button-base: #333;
-    --button-hover: #444;
+    --button-base: var(--background);
+    --button-hover: var(--background-hover);
 
     --links: #56c7ff;
     
     --focus: #7aa3fc;
 
     --table: var(--table-bg-alt);
-    --table-bg: #414141;
-    --table-bg-alt: #353535;
+    --table-bg: var(--background);
+    --table-bg-alt: var(--background-body);
 
     --box-shadow: 0 0 0px 1px hsla(0, 0%,  
         100%, 0.15), rgba(0, 0, 0, 0.24) 0px 3px 8px;

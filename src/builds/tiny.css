@@ -1,0 +1,4 @@
+@import '../variables-light.css';
+@import '../variables-dark.css' (prefers-color-scheme: dark);
+
+@import '../core.css';

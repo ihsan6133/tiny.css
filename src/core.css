@@ -1,6 +1,3 @@
-@import 'variables-light.css';
-@import 'variables-dark.css' (prefers-color-scheme: dark);
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
@@ -11,16 +8,14 @@ body {
     line-height: 1.8;
 }
 
-
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--links);
-    border-bottom: 1px solid;
     transition: 0.2s;
 }
 
 a:hover {
-    border-bottom: none;
+    text-decoration: none;
 }   
 
 a:focus-visible {
@@ -42,18 +37,12 @@ input:focus {
     border-color: var(--focus);
 }
 
-input::placeholder {
-    color: var(--text-muted);
-}
 code {
     background-color: var(--background);
     padding: 0.25rem;
     border-radius: 0.25rem;
     color: var(--text-bright);
 }
-
-
-
 
 pre>code {
     padding: 10px;
@@ -68,7 +57,7 @@ pre>code {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #999;
+    background-color: var(--text-muted);
     border-radius: 5px;
 }
 
@@ -77,23 +66,13 @@ pre>code {
 }
 
 ::-webkit-scrollbar-track {
-    background: #ddd;
-    border-radius: 0.25rem;
+    background: var(--background-body);
 }
 
 blockquote {
     margin: 1.5em 0;
     padding: 0 1.5rem;
     border-left: 5px solid var(--focus);
-    font-style: italic;
-}
-
-blockquote footer {
-    font-style: normal;
-}
-
-blockquote cite {
-    font-style: normal;
 }
 
 footer {
@@ -154,7 +133,7 @@ details {
     border-radius: 0.5rem;
     overflow: hidden;
     padding: 0.5rem;
-    background-color: var(--button-base);
+    background-color: var(--background-body);
     border: 1px solid var(--background-hover);
     box-sizing: border-box;
 }
@@ -212,45 +191,43 @@ summary:focus-visible  {
     outline-color: var(--focus);
     /* border: 2px solid var(--focus); */
 }
-:root {
-    --background-body: #333;
-    --background:#444;
-    --background-hover: #555;
 
-    --text-main: #f7f7f7;
-    --text-bright: #fff;
-    --text-muted: #9d9d9d;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
 
-    --button-base: #333;
-    --button-hover: #444;
+    box-shadow: var(--box-shadow);
+}
 
-    --links: #56c7ff;
-    
-    --focus: #7aa3fc;
+thead {
+    background-color: var(--table);
+
+    color: white;
+}
+
+tbody tr {
+    background-color: var(--table-bg);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: var(--table-bg-alt);
+}
+
+
+tbody:last-of-type {
+    border-bottom: 0.2rem solid var(--table);
 
 }
 
-::backdrop {
-    --dialog-backdrop: rgba(255, 255, 255, 0.1);
-}
-:root {
-    --background-body: #f7f7f7;
-    --background:#e2e2e2;
-    --background-hover: #bbb;
-
-    --text-main: #333;
-    --text-bright: #000;
-    --text-muted: #999;
-
-    --button-base: #fff;
-    --button-hover: #eee;
-
-    --links: #0070E0;
-
-    --focus: #7aa3fc;
-
+th, td {
+    padding: 0.5rem;
 }
 
-::backdrop {
-    --dialog-backdrop: rgba(0, 0, 0, 0.1);
+img, video, svg {
+    max-width: 100%;
+    height: auto;
 }
