@@ -152,6 +152,7 @@ details[open] summary {
 }
 
 summary::marker {
+    display: none;
     content: '';
 }
 
