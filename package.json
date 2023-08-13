@@ -1,6 +1,6 @@
 {
   "name": "tiny.css",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "A very minimalistic and light weight css library",
   "main": "tiny.css",
   "scripts": {
@@ -15,6 +15,7 @@
     "url": "https://github.com/ihsan6133/tiny.css.git"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
