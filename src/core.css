@@ -151,9 +151,12 @@ details[open] summary {
     margin-bottom: 0.2rem;
 }
 
-summary::marker {
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker, details > summary::marker {
     display: none;
-    content: '';
 }
 
 summary::before {
