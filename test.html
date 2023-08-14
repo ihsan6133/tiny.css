@@ -20,7 +20,6 @@
     <h2>Demos</h2>
 
     <input type="" placeholder="Name">
-    <br>
 
     <pre><code>// This is Javascript <br>console.log("Hello World!");</code></pre>
     
@@ -46,7 +45,7 @@
     </dialog>
     <details>
         <summary>Click me!</summary>
-        <p>Hello THis is the text i was talking about!</p>
+        <p>Hello THis is the text i was talking about! You can copy it with <kbd>Ctrl</kbd> + <kbd>C</kbd></p>
     </details>
 
     <table>
@@ -75,11 +74,24 @@
             </tr>
         </tbody>
     </table>
-
+    
     <p>Here is an Image:</p>
-
+    
     <img src="https://placekitten.com/1000/1000" alt="Cat Picture">
 
-
+    <h3>Form</h3>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="email@gmail.com">
+    <input type="button" value="This button is disabled">
+    <label>Favourite animal</label>
+    <select>
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="bird">Bird</option>
+    </select>
+    <div>
+        <input type="checkbox" name="remember-me" id="remember-me">
+        <label for="remember-me">Remember me</label>
+    </div>
 </body>
 </html>

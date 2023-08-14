@@ -30,11 +30,33 @@ input {
     font-size: medium;
     background-color: var(--background);
     transition-duration: 0.2s;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type=checkbox], input[type=radio] {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    cursor: pointer;
+
+}
+
+input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: 2px solid var(--focus);
+}
+
+input[type=checkbox]:active, input[type=radio]:active {
+    transform: scale(1.1);
 }
 
 input:focus {
     outline: none;
     border-color: var(--focus);
+}
+
+input::placeholder {
+    color: var(--text-muted);
 }
 
 code {
@@ -79,7 +101,7 @@ footer {
     padding-top: 1rem;
 }
 
-button {
+button, input[type=button], input[type=submit], input[type=reset] {
     font-size: 1em;
     padding: 0.6rem;
     background-color: var(--button-base);
@@ -90,18 +112,25 @@ button {
     color: var(--text-bright);
 }
 
-button:hover {
+button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
     background-color: var(--button-hover)
 }
-button:active {
+button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
     transform: scale(1.05);
 }
 
-button:focus-visible {
+button:focus-visible, input[type=button]:focus-visible, input[type=submit]:focus-visible, input[type=reset]:focus-visible {
     outline: none;
     border: 2px solid var(--focus);
 }
 
+button:disabled, button:disabled:hover, button:disabled:active,
+input:disabled, input:disabled:hover, input:disabled:active {
+    background-color: var(--background);
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
 
 dialog {
     
@@ -203,13 +232,13 @@ table {
     padding: 1rem;
     border-radius: 0.5rem 0.5rem 0 0;
     overflow: hidden;
-
+    
     box-shadow: var(--box-shadow);
 }
 
 thead {
     background-color: var(--table);
-
+    
     color: white;
 }
 
@@ -224,7 +253,7 @@ tbody tr:nth-child(2n) {
 
 tbody:last-of-type {
     border-bottom: 0.2rem solid var(--table);
-
+    
 }
 
 th, td {
@@ -234,4 +263,29 @@ th, td {
 img, video, svg {
     max-width: 100%;
     height: auto;
+}
+
+select {
+    background-color: var(--background);
+    color: var(--text-main);
+    padding: 0.25rem;
+    border: 2px solid var(--background-hover);
+    border-radius: 0.5rem;
+
+    font-size: inherit;
+    font-family: inherit;
+
+    transition-duration: 0.2s;
+    outline: none;
+}
+
+select:focus {
+    border-color: var(--focus);
+}
+
+kbd {
+    border: 1px solid var(--text-muted);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }

@@ -1,6 +1,6 @@
 {
   "name": "tiny.css",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "A very minimalistic and light weight css library",
   "main": "dist/tiny.css",
   "scripts": {
