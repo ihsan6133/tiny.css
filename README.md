@@ -21,19 +21,19 @@ Just stick this in the `<head>` tag of your html file:
 ### Automatic light/dark theme:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.11/dist/tiny.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/tiny.css">
 ```
 
 ### Light theme only:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.11/dist/light.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/light.css">
 ```
 
 ### Dark theme only:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.11/dist/dark.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/dark.css">
 ```
 
 ## Contributing
