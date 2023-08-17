@@ -49,5 +49,5 @@ and [Guilherme Pangnotta](https://github.com/setetres)'s [evenbettermotherfuckin
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the [MIT license](LICENSE).
 
